@@ -183,6 +183,8 @@ elif CGPA>=8.1 and CGPA<=9:
     print("your grade is A+")
 elif CGPA>=9 and CGPA<=10:
     print("your grade is O")
+else:
+    print("invalid input")
 print(" ")
     
         
