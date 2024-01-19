@@ -155,6 +155,35 @@ elif(m==2):
 
 if(flag==1):
     print("day={} month={} year={}".format(d,m,y))
+
+
+#8
+print("CGPA and grades calculator")
+name=input("enter your name: ")
+SAP=input("enter SAP ID: ")
+py=int(input("enter your python marks: "))
+mat=int(input("enter your maths marks: "))
+chem=int(input("enter your chemistry marks: "))
+phy=int(input("enter your physics marks: "))
+PDS=int(input("enter your PSD marks: "))
+per=(py+mat+chem+phy+PDS)/100
+CGPA=per/10
+print("your CGPA is ", CGPA)
+if CGPA>=0 and CGPA<=3.4:
+    print("your grade is F")
+elif CGPA>=3.5 and CGPA<=5:
+    print("your grade is C+")
+elif CGPA>=5.1 and CGPA<=6:
+    print("your grade is B")
+elif CGPA>=6.1 and CGPA<=7:
+    print("your grade is B+")
+elif CGPA>=7.1 and CGPA<=8:
+    print("your grade is A")
+elif CGPA>=8.1 and CGPA<=9:
+    print("your grade is A+")
+elif CGPA>=9 and CGPA<=10:
+    print("your grade is O")
+print(" ")
     
         
         
