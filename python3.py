@@ -166,7 +166,7 @@ mat=int(input("enter your maths marks: "))
 chem=int(input("enter your chemistry marks: "))
 phy=int(input("enter your physics marks: "))
 PDS=int(input("enter your PSD marks: "))
-per=(py+mat+chem+phy+PDS)/100
+per=((py+mat+chem+phy+PDS)/500)*100
 CGPA=per/10
 print("your CGPA is ", CGPA)
 if CGPA>=0 and CGPA<=3.4:
